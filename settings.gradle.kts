@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Todo2"
 include(":app")
+include(":feature:feature-todo")
