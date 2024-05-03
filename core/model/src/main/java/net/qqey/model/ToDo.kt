@@ -2,7 +2,7 @@ package net.qqey.model
 
 import java.util.Date
 
-data class Todo(
+data class ToDo(
     val id: Long,
     val title: String,
     val description: String,
