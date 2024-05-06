@@ -19,7 +19,11 @@ fun MainApp() {
             )
         }
         composable("/create"){
-            CreateTodoScreen()
+            CreateTodoScreen(
+                back = {
+                    navController.popBackStack()
+                }
+            )
         }
     }
 }
