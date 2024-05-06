@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Done
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -38,6 +39,11 @@ fun CreateTodoScreen(
                     Icon(Icons.Filled.ArrowBack, contentDescription = "Back")
                 }
             },
+            actions = {
+                IconButton(onClick = {}) {
+                    Icon(Icons.Filled.Done, contentDescription = "Create")
+                }
+            }
         )
     }) { paddingValues ->
         Column(
